@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/grad_bg"
+    tools:context=".loginActivity"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relative"
+        android:background="@drawable/grad_bg"
+        >
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:rotation="90"
+        android:src="@drawable/whiteleaf"
+        android:paddingTop="20dp"
+        android:id="@+id/leaf"
+        />
+
+    <TextView
+        android:id="@+id/skip1"
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="6dp"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:text="My Data is Secured ?"
+        android:textSize="12dp"
+        android:textColor="@color/white" />
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_below="@+id/leaf"
+        android:layout_height="110dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/dr"
+        android:id="@+id/drr"
+        />
+    <Space
+        android:layout_below="@+id/drr"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:id="@+id/space1"
+        />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/space1"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Login with Password"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:id="@+id/logpass"
+        android:background="@drawable/et_bg"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logpass"
+        android:layout_centerInParent="true"
+        android:text="OR"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:id="@+id/orr"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/orr"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Login with OTP"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:id="@+id/otppass"
+        android:background="@drawable/et_bg"
+        />
+    <Space
+        android:layout_below="@+id/otppass"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/space"
+        />
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:src="@color/white"
+       android:layout_below="@+id/space"
+        android:layout_centerHorizontal="true"
+       android:id="@+id/li"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="FORGOT PASSWORD ?"
+        android:layout_below="@+id/li"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="30dp"
+        android:textSize="15dp"
+        android:id="@+id/forgot"
+        android:paddingTop="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="SKIP LOGIN"
+        android:layout_below="@+id/forgot"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="30dp"
+        android:textSize="18dp"
+        android:id="@+id/ski"
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:text="I agree Terms and Conditions by loging to Dr. Techno"
+    android:layout_centerInParent="true"
+    android:paddingBottom="10dp"
+    android:textColor="@color/white"
+    android:id="@+id/term"
+    />
+    </RelativeLayout>
+
+
+</RelativeLayout>

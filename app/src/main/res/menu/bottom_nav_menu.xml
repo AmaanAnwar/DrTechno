@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/message"
+        android:icon="@drawable/chats"
+        android:title="Message"
+        />
+    <item
+        android:id="@+id/appointment"
+        android:icon="@drawable/botmappoint"
+        android:title="Appointment"
+        />
+
+    <item
+        android:id="@+id/emergency"
+        android:icon="@drawable/emergency"
+        android:title="Emergency"
+        />
+    <item
+        android:id="@+id/moreservices"
+        android:icon="@drawable/botmmore"
+        android:title="More"
+        />
+
+</menu>

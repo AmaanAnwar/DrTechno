@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".visititDetails"
+    android:orientation="vertical"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Visit Details"
+    android:background="@color/gradStart"
+    android:textSize="22dp"
+    android:gravity="center"
+    android:textColor="@color/white"
+    />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:layout_marginLeft="15dp"
+                >
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Patient UHID :"
+                    android:textColor="@color/md_grey_800"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Name :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Id :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Guardian Name :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Gender :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Marital Status :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Phone :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Email Address :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Address :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Age :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Blood Group :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Name :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Hieght :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Wieght :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Patient BP :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Symptoms :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Alergies :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Appointment Date :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Case :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Casuality :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Old Patient :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="TPA :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Refrence :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Consultant Doctor :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Amount :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Payment Mode :"
+                    android:textColor="@color/md_grey_800"
+                    android:layout_marginTop="5dp"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="HOSP12312321"
+                    android:textColor="@color/md_black_1000"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Id "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Guardian Name "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Gender "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Marital Status "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Phone "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Email Address "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Address "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Age "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Blood Group "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Name "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Hieght "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Wieght "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Patient BP "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Symptoms "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Alergies "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Appointment Date "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Case "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Casuality "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Old Patient "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="TPA "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Refrence "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Consultant Doctor "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Amount "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Payment Mode "
+                    android:textColor="@color/md_black_1000"
+                    android:layout_marginTop="5dp"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.faat.drtechno">
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission-sdk-23 android:name="android.permission.READ_CALENDAR" />
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_CALENDAR" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="drtechno"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".currentPrescription"></activity>
+        <activity android:name=".visititDetails" />
+        <activity android:name=".VisistHistory" />
+        <activity android:name=".invoic" />
+        <activity android:name=".ReportsActivity" />
+        <activity android:name=".PreviousAppointment" />
+        <activity android:name=".bookAppointment" />
+        <activity android:name=".timeline" />
+        <activity android:name=".profile" />
+        <activity android:name=".moreServices" />
+        <activity android:name=".opdHomePage" />
+        <activity android:name=".log_otp" />
+        <activity android:name=".log_password" />
+        <activity android:name=".step_one" />
+        <activity android:name=".loginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

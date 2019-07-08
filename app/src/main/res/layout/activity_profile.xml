@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:src="@drawable/logo"
+                android:id="@+id/logo"
+                android:layout_centerHorizontal="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/cent"
+                android:gravity="center"
+                android:text="Timeline"
+                android:background="@color/white"
+                android:textColor="@color/md_black_1000"
+                android:id="@+id/timeline"
+                android:layout_below="@+id/logo"
+                />
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/cent"
+                android:layout_below="@+id/logo"
+                android:background="@color/md_grey_200"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/cent"
+                android:gravity="center"
+                android:text="Profile"
+                android:background="@color/white"
+                android:textColor="@color/md_black_1000"
+                android:id="@+id/prof"
+                android:layout_below="@+id/logo"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/cent"
+                android:background="@color/gradStart"
+                android:textColor="@color/md_black_1000"
+                android:layout_below="@+id/logo"
+                android:layout_marginTop="38dp"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_below="@+id/cent"
+                android:id="@+id/version"
+                android:background="@color/md_grey_300"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/version"
+                android:layout_centerHorizontal="true"
+                android:text="Profile"
+                android:textColor="@color/md_black_1000"
+                android:textSize="22dp"
+                android:layout_margin="10dp"
+                android:id="@+id/textpro1"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/textpro1"
+                android:id="@+id/textpro"
+                android:text="Description will be shown here"
+                android:gravity="center"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_below="@+id/textpro"
+                android:id="@+id/sepr"
+                android:background="@color/md_grey_300"
+                />
+            <RelativeLayout
+                android:id="@+id/rl"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/recbg"
+                android:layout_below="@+id/sepr"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="10dp"
+                >
+                <!--android:background="@drawable/profbg"-->
+                <ImageView
+                    android:id="@+id/pro"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/circlepro"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/logo" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/pro"
+                    android:layout_centerHorizontal="true"
+                    android:text="Name Here"
+                    android:textColor="@color/gradStart"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OPD"
+                    android:textColor="@color/md_black_1000"
+                    android:layout_below="@+id/name"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/opd"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hospital Name"
+                    android:layout_below="@+id/opd"
+                    android:id="@+id/hospname"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="19dp"
+                    android:textColor="@color/gradStart"
+                    />
+                <ImageView
+                    android:id="@+id/se"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/hospname"
+                    android:layout_marginTop="3dp"
+                    android:src="@drawable/grad_line"
+                    />
+
+                <TextView
+                    android:id="@+id/uhid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/se"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="UHID : "
+                    android:textColor="@color/md_black_1000" />
+
+                <TextView
+                    android:id="@+id/uhidd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/uhid"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="UBAt3095" />
+
+                <TextView
+                    android:id="@+id/guardian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/se"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    android:paddingRight="10dp"
+                    android:text="Guardian Name"
+                    android:textColor="@color/md_black_1000" />
+
+                <TextView
+                    android:id="@+id/garname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/uhid"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:paddingRight="10dp"
+                    android:text="Sample Name" />
+                <TextView
+                    android:id="@+id/gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Gender"
+                    android:textColor="@color/md_black_1000"
+                    android:layout_below="@+id/garname"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:id="@+id/genders"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/gender"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Male/Female" />
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:paddingRight="10dp"
+                    android:text="Phone"
+                    android:textColor="@color/md_black_1000"
+                    android:layout_below="@+id/garname"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/phones"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/phone"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:paddingRight="10dp"
+                    android:text="1234567890" />
+
+                <TextView
+                    android:id="@+id/consultant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/genders"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Age"
+                    android:textColor="@color/md_black_1000" />
+
+                <TextView
+                    android:id="@+id/consultants"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/consultant"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="22" />
+
+                <TextView
+                    android:id="@+id/firstvisit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/consultants"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Email Address"
+                    android:textColor="@color/md_black_1000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/firstvisit"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="foreg@gmail.com" />
+
+                <TextView
+                    android:id="@+id/lastvisit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/genders"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:text="Marital Status"
+                    android:textColor="@color/md_black_1000" />
+
+                <TextView
+                    android:id="@+id/lastvisits"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/lastvisit"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:text="Single" />
+
+                <TextView
+                    android:id="@+id/paymentstatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/consultants"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:text="Address"
+                    android:textColor="@color/md_black_1000" />
+
+                <TextView
+                    android:id="@+id/paymentstatuss"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/paymentstatus"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:text="947 Avenue Street LA" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:labelVisibilityMode="labeled"
+        app:itemTextColor="@color/md_black_1000"
+        />
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/grad_bg"
+    tools:context=".MainActivity"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Version  1.0      "
+        android:textColor="@color/white"
+        android:paddingTop="20dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/ve"
+        />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:rotation="90"
+        android:src="@drawable/whiteleaf"
+        android:paddingTop="20dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/dr"
+        android:fitsSystemWindows="true"
+        android:id="@+id/iv"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pow"
+        android:textSize="11dp"
+        android:text="Copyright @ 2019"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="20dp"
+        android:id="@+id/year"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11dp"
+        android:id="@+id/pow"
+        android:text="Powered By Anuj's Health4Sure and ForAll A Tech "
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="25dp"
+        />
+
+
+</RelativeLayout>

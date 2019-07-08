@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/recbg"
+    >
+   <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+       >
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/image_view"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Canada"
+                android:id="@+id/name"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/md_black_1000"
+                android:layout_marginBottom="5dp"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeMaxTextSize="15sp"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="10dp"
+           android:layout_below="@+id/name"
+           android:id="@+id/time"
+           android:layout_marginTop="5dp"
+           android:text="12:45 AM"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="10dp"
+           android:layout_below="@+id/name"
+           android:layout_marginTop="5dp"
+           android:id="@+id/date"
+           android:layout_toRightOf="@+id/time"
+           android:text="03/02/2019"
+
+           />
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@+id/time"
+                android:id="@+id/desc"
+                android:text="Event description will show here"
+                />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="10dp"
+           android:layout_below="@+id/desc"
+           android:id="@+id/othdet"
+           android:text="Other Details here"
+           android:layout_marginTop="5dp"
+           />
+        </RelativeLayout>
+
+</FrameLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
